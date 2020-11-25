@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+import React, {Component} from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Anothrer test</h2>
-    </div>
-  );
+class App extends Component {
+  constructor(props){
+    super(props);
+  }
+  render(){
+    return(
+      <div>
+        
+      </div>
+    )
+  }
 }
 
 export default App;

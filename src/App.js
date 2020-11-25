@@ -1,15 +1,14 @@
 import React, {Component} from 'react'
-import './App.css';
-
+import Layout from './components/Layout/Layout'
 class App extends Component {
   constructor(props){
     super(props);
   }
   render(){
     return(
-      <div>
-        
-      </div>
+      <Layout>
+        <h1>test</h1>
+      </Layout>
     )
   }
 }
